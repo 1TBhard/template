@@ -1,0 +1,13 @@
+import { Test } from "src/testFolder/Test";
+
+export const App = () => {
+	return (
+		<div>
+			<h1>App</h1>
+
+			<div>
+				<Test />
+			</div>
+		</div>
+	);
+};
